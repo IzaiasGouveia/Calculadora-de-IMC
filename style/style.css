@@ -1,0 +1,76 @@
+body {
+    display: flexbox;
+    margin: 0 !important;
+    background-color: #dde4fd;
+    padding: 0;
+}
+#grid{
+    display: grid;
+    grid-template-columns: a
+    uto auto auto;
+    text-align: center;
+
+}
+#header {
+    background-color: rgb(16, 142, 142);
+    padding: 5em;
+    text-align: center;
+    color: white;
+}
+h1{
+    margin: 0;
+}
+#imc {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+
+}
+input{
+    border-radius: 7px;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 1em;
+}
+#mulher{
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 400px;
+}
+#marta{
+    width: 150px;
+    opacity: 100% !important;
+    padding-bottom: 10px;
+}
+#homem{
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+#neymar{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    opacity: 100% !important;
+    padding-bottom: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #dde4fd;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
